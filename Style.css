@@ -183,6 +183,16 @@ nav .nav-links a {
   color: white;
   margin: 10px;
 }
+
+.submit:hover{
+  background-color: rgb(132, 128, 193);
+}
+
+.skip:hover{
+  color: white;
+}
+
+
 .contact a {
   display: block;
   width: 100%;
