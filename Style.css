@@ -24,8 +24,6 @@ nav {
   justify-content: space-between;
   padding: 10px 20px;
   border-bottom: 2px solid white;
-  position: fixed;
-  width: 100vw;
   background-color: black;
 }
 .ham {
@@ -66,11 +64,6 @@ nav .nav-links a {
 }
 
 .frames {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
-  margin-top: 50px; */
   columns: 380px;
   place-items: center;
 }
