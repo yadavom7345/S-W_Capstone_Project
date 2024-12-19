@@ -249,9 +249,7 @@ footer button:hover {
   }
 }
 @media (max-width: 440px) {
-  /* .frames {
-    width: 85%;
-  } */
+
   .images {
     width: 85%;
   }
