@@ -90,6 +90,21 @@ nav .nav-links a {
   font-size: 13px;
 }
 
+.about {
+  padding: 156px 10px;
+  text-wrap: wrap;
+  margin: 50px;
+}
+.about div {
+  display: flex;
+  justify-content: start;
+}
+
+.about div h2 {
+  width: 75%;
+  font-size: 45px;
+}
+
 
 @media (max-width: 1239px) {
   .header h1 {
