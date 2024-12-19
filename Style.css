@@ -186,6 +186,32 @@ nav .nav-links a {
   text-decoration: none;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-top: 10em;
+  align-items: center;
+}
+
+footer button {
+  font-family: "Archivo", sans-serif !important;
+
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+footer button:hover {
+  border: none;
+  background-color: rgba(146, 141, 211, 1);
+  color: white;
+}
+
 @media (max-width: 1239px) {
   .header h1 {
     font-size: 100px;
