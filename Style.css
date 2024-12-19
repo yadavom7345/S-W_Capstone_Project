@@ -105,6 +105,24 @@ nav .nav-links a {
   font-size: 45px;
 }
 
+.getin {
+  border-bottom: 1px solid white;
+}
+.getintouch {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.getintouch .head h3 {
+  font-family: "Chivo", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+.getintouch .para {
+  width: 41vw;
+  font-size: 24px;
+}
+
 
 @media (max-width: 1239px) {
   .header h1 {
