@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Archivo", sans-serif;
   font-weight: 400;
 }
 nav {
@@ -176,7 +176,7 @@ nav .nav-links a {
   padding: 8px;
   border: none;
   border-radius: 8px;
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Archivo", sans-serif ;
 
   background-color: rgba(146, 141, 211, 1);
   cursor: pointer;
@@ -199,7 +199,7 @@ nav .nav-links a {
   padding: 8px;
   border: none;
   border-radius: 8px;
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Archivo", sans-serif ;
 
   cursor: pointer;
   color: rgba(146, 141, 211, 1);
@@ -216,7 +216,7 @@ footer {
 }
 
 footer button {
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Archivo", sans-serif ;
 
   padding: 12px 20px;
   background-color: black;
@@ -233,6 +233,8 @@ footer button:hover {
   color: white;
 }
 
+
+
 @media (max-width: 1239px) {
   .about div div {
     width: 50vw;
@@ -244,11 +246,14 @@ footer button:hover {
     display: none;
   }
 }
+
+
 @media (max-width: 889px) {
   .header h1 {
     font-size: 80px;
   }
 }
+
 
 @media (max-width: 768px) {
   .nav-items {
@@ -258,6 +263,8 @@ footer button:hover {
     display: block;
   }
 }
+
+
 @media (max-width: 440px) {
 
   .images {
@@ -268,6 +275,8 @@ footer button:hover {
     height: auto;
   }
 }
+
+
 
 @media (max-width: 515px) {
 
@@ -283,6 +292,8 @@ footer button:hover {
   }
 
 }
+
+
 @media (max-width: 697px) {
 
   .getintouch .head h3 {
